@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>AppKit Mobile</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <div class="header header-fixed header-logo-left header-auto-show ">
+            <a href="index.html" class="header-title">Zainu Pentol</a>
+        </div>
+
+        <div id="footer-bar" class="footer-bar-6">
+            <a href="keranjang-belanja.html"><i class="fas fa-cart-arrow-down"></i><span>Keranjang Belanja</span></a>
+            <a href="home.html" class="circle-nav active-nav"><i class="fa fa-home"></i><span>Home</span></a>
+            <a href="status-pesanan.html"><i class="fas fa-bullhorn"></i><span>Status Pesanan</span></a>
+        </div>
+
+        <div class="page-title page-title-fixed">
+            <h3>Selamat Datang</h3>
+        </div>
+        <div class="page-title-clear"></div>
+
+
+        <div class="page-content">
+
+            <div class="card card-style">
+                <div class="content">
+                    <h4>Enjoy Your Healthy
+                        Delicious Food</h4>
+                    <p>
+                        Makanan adalah obat yang lebih baik daripada obat. Seseorang tidak bisa berpikir dengan baik,
+                        mencintai dengan baik, dan tidur nyenyak jika belum makan dengan baik.
+                    </p>
+
+                    <div class="splide single-slider slider-has-arrows slider-no-dots" id="single-slider-1">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide mx-3">
+                                    <div data-card-height="300" class="card bg-5 mb-0 rounded-m shadow-l">
+                                        <img src="./images/food/th10.jpeg" alt="" srcset="" width="100%">
+                                        <div class="card-bottom text-center mb-3">
+                                            <h2 class="color-white text-uppercase font-900 mb-0">ZainuPentol</h2>
+                                            <p class="under-heading color-white">"Pentol Enak, Harga Merakyat"</p>
+                                        </div>
+                                        <div class="card-overlay bg-gradient"></div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide mx-3">
+                                    <div data-card-height="300" class="card bg-6 mb-0 rounded-m shadow-l">
+                                        <img src="./images/food/th_4.jpg" alt="" srcset="" width="100%">
+                                        <div class="card-bottom text-center mb-3">
+                                            <h2 class="color-white text-uppercase font-900 mb-0">ZainuPentol</h2>
+                                            <p class="under-heading color-white">"Teman Setia Dikala Lapar"</p>
+                                        </div>
+                                        <div class="card-overlay bg-gradient"></div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide mx-3">
+                                    <div data-card-height="300" class="card bg-9 mb-0 rounded-m shadow-l">
+                                        <img src="./images/food/th_3.jpg" alt="" srcset="" width="100%">
+                                        <div class="card-bottom text-center mb-3">
+                                            <h2 class="color-white text-uppercase font-900 mb-0">ZainuPentol</h2>
+                                            <p class="under-heading color-white">“Bukan Sekedar Pentol, Ini Legenda
+                                                Rasa”</p>
+                                        </div>
+                                        <div class="card-overlay bg-gradient"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card card-style">
+                <div class="content mb-0 mt-3" id="tab-group-1">
+                    <div class="tab-controls tabs-small tabs-rounded" data-highlight="bg-highlight">
+                        <a href="#" data-active data-bs-toggle="collapse" data-bs-target="#tab-1ab">Pentol</a>
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-2ab">Minuman</a>
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#tab-3ab">Snack</a>
+                    </div>
+
+                    <div class="clearfix mb-4"></div>
+                    <div data-bs-parent="#tab-group-1" class="collapse show" id="tab-1ab">
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th_1.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Biasa</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 500,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th_2.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Telur</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 1000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th_6.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Keju</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 1000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th_7.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Tahu</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 500,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th_8.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Sambal Lombok</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 1000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/pentol/th9.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Pentol &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Kuah Mercon</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per biji</p>
+                                <h6 class="font-15 mb-0">Rp. 1000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-bs-parent="#tab-group-1" class="collapse" id="tab-2ab">
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th_12.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Susu Coklat</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 3000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th_13.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Susu Putih</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 3000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th14.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Kuku Bima</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 2000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th15.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Pop Ice</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 3000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th21.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Marimas</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 1500,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/minuman/th20.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Minuman &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Tea Jus</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per gelas</p>
+                                <h6 class="font-15 mb-0">Rp. 1500,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-bs-parent="#tab-group-1" class="collapse" id="tab-3ab">
+                        <div class="d-flex mb-4">
+                            <div class="align-self-center">
+                                <img src="images/food/snack/kacang.jpg" class="rounded-sm me-3" width="40">
+                            </div>
+                            <div class="align-self-center">
+                                <p class="color-highlight font-14 mb-n2">Snack &nbsp;<span class="badge bg-red-dark">Sisa 5</span></p>
+                                <h6 class="font-15 line-height-s mt-1 mb-1">Kacang</h6>
+                            </div>
+                            <div class="ms-auto ps-3 align-self-center text-center">
+                                <p class="color-highlight font-10 mb-n2">per bungkus</p>
+                                <h6 class="font-15 mb-0">Rp. 2000,-</h6>
+                                <div class="mx-auto">
+                                </div>
+                            </div>
+                            <div class="stepper rounded-s float-end">
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-style">
+                    <div class="content mt-3">
+                        <div class="row mb-0">
+            
+                            <div class="col-6">
+                                <h4 class="opacity-50 font-13">Items &nbsp;<span class="badge bg-red-dark"> 5 </span></h4>
+                            </div>
+                            <div class="col-6 text-end">
+                                <h4 class="font-13 opacity-50">$45.10</h4>
+                            </div>
+                            <div class="col-6">
+                                <h4 class="opacity-50 font-13">Diskon &nbsp;<span class="badge bg-red-dark">0 %</span></h4>
+                            </div>
+                            <div class="col-6 text-end">
+                                <h4 class="font-13 opacity-50">$15.02</h4>
+                            </div>
+                            <div class="col-6">
+                                <h4 class="opacity-50 font-13">Delivery &nbsp;<span class="badge bg-red-dark">Free</span></h4>
+                            </div>
+                            <div class="col-6 text-end">
+                                <h4 class="font-13 opacity-50">$15.02</h4>
+                            </div>
+                            <div class="col-12 pb-3"></div>
+                            <div class="col-6">
+                                <h4>Total</h4>
+                            </div>
+                            <div class="col-6 text-end">
+                                <h4>$52.12</h4>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                    <a href="#"
+                        class="btn btn-full me-3 ms-3 btn-l font-13 font-600 rounded-s shadow-l mb-4 gradient-highlight"><i
+                            class="fas fa-cart-plus"></i>&nbsp;Place Order</a>
+            
+                </div>
+
+            </div>
+            
+        </div>
+
+
+
+        <div data-menu-load="menu-footer.html"></div>
+    </div>
+    <!-- Page content ends here-->
+
+    <!-- Main Menu-->
+    <div id="menu-main" class="menu menu-box-left rounded-0" data-menu-load="menu-main.html" data-menu-width="280"
+        data-menu-active="nav-homepages"></div>
+
+    <!-- Share Menu-->
+    <div id="menu-share" class="menu menu-box-bottom rounded-m" data-menu-load="menu-share.html" data-menu-height="370">
+    </div>
+
+    <!-- Colors Menu-->
+    <div id="menu-colors" class="menu menu-box-bottom rounded-m" data-menu-load="menu-colors.html"
+        data-menu-height="480"></div>
+
+
+    </div>
+
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
